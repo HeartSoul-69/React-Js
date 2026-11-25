@@ -1,0 +1,97 @@
+/* .Heading {
+  text-align : center;
+  text-transform : capitalize ;
+}
+
+.Input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* 
+* {
+    margin :  0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color:azure;
+}
+
+.Card {
+  border: 2px solid black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height :300px;
+  width: 250px;
+  padding: 30px;
+  border: 1px solid grey;
+  border-radius: 12px;
+  background-color: rgb(224, 223, 223);
+}
+
+.Card-Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.ProfilePic {
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.Email {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding : 5px;
+    width : 200px;
+    box-sizing: border-box;
+  }
+
+.Password-Container {
+  display: flex;
+  align-items: center;
+  max-width: 200px;
+}
+
+.Pass {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding : 5px;
+    width : 100%;
+
+}
+
+.Hide {
+    /* padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+    border: 1px solid;
+    font-size: 12px; */
+
+    margin-left: 3px;
+    padding: 5px 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Hide:hover {
+  cursor : pointer;
+}
+
+.Signin {
+    padding : 5px 20px 5px 20px;
+    background-color: mediumslateblue;
+    color   : white;
+    font    : 500;
+    cursor  : pointer;
+}

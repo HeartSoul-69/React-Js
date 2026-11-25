@@ -1,0 +1,50 @@
+.Counter {
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    /* text-decoration: underline; */
+}
+
+
+.Heading {
+    font-size: 60px;
+    text-align: center;
+    margin: 20px;
+    padding: 0%;
+}
+
+.Buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.Inc {
+    font-size   : 14px;
+    font-weight : 600;
+    padding     : 8px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgb(70, 195, 76);  
+    color: rgb(248, 243, 243);
+}
+
+.reset {
+    font-size   : 14px;
+    font-weight : 600;
+    padding     : 8px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgb(134, 179, 245);  
+}
+
+.decrease {
+    font-size   : 14px;
+    font-weight : 600;
+    padding     : 8px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: red;
+    color: aliceblue;
+}
